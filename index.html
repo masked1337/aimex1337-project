@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<title>aimex1337 - Project</title>
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="canonical" href="https://aimex1337-project/">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="aimex1337 - Project">
+	<meta name="keywords" content="leet, youtube, portfolio, 1337">
+	<meta name="author" content="masked1337">
+	<meta name="theme-color" content="#e03231">
+
+	<!-- Discord Embed -->
+	<meta property="og:title" content="masked1337 | L337Hub">
+	<meta property="og:description" content="aimex1337 - Project">
+	<meta property="og:url" content="https://aimex1337-project/">
+	<meta property="og:image" content="https://aimex1337-project.github.io/assets/img/logo.png">
+
+	<style>
+		.youtube-videos {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+			margin-top: 20px;
+		}
+
+		.youtube-videos iframe {
+			width: 300px;
+			height: 169px; /* odnos 16:9 */
+			border-radius: 8px;
+		}
+
+		@media (max-width: 768px) {
+			.youtube-videos iframe {
+				width: 90%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home"><i class="bi bi-house"></i> <span>Home</span></a></li>
+				<li><a href="#galery"><i class="bi bi-camera"></i> <span>Galery</span></a></li>
+				<li><a href="#shop"><i class="bi bi-camera"></i> <span>Shop</span></a></li>
+				<li><a href="#contact"><i class="bi bi-envelope"></i> <span>Contact</span></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<section id="home">
+			<strong>We!come To</strong>
+			<h1>aimex1337 - Project</h1>
+			<p></p>
+			<ul class="social-media">
+				<li><a href="https://github.com/masked1337" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="bi bi-github"></i></a></li>
+				<li><a href="https://steamcommunity.com/id/masked1337" target="_blank" rel="noopener noreferrer" aria-label="Steam"><i class="bi bi-steam"></i></a></li>
+				<li><a href="https://exodichub.mysellauth.com/" aria-label="Store"><i class="bi bi-shop"></i></a></li>
+			</ul>
+		</section>
+
+		<section id="galery" style="padding:50px 20px; background:#1a1a1a; color:white;">
+            <h2 style="text-align:center; margin-bottom:40px; font-size:2.5em;">Galery</h2>
+            <p class="quote" style="text-align:center; margin-bottom:50px; font-style:italic;">
+             "The most important thing in communication is to hear what is not said."<span>masked1337</span>
+          </p>
+
+           <div class="youtube-videos" style="display:flex; flex-wrap:wrap; gap:30px; justify-content:center;">
+        <a href="https://www.youtube.com/watch?v=Ses47kZTwUU" target="_blank">
+            <img src="https://img.youtube.com/vi/Ses47kZTwUU/maxresdefault.jpg" alt="Video 1" style="width:300px; height:169px; object-fit:cover; border-radius:12px;">
+        </a>
+        <a href="https://www.youtube.com/watch?v=eO5jDdAd8zA" target="_blank">
+            <img src="https://img.youtube.com/vi/eO5jDdAd8zA/maxresdefault.jpg" alt="Video 2" style="width:300px; height:169px; object-fit:cover; border-radius:12px;">
+        </a>
+        <a href="https://www.youtube.com/watch?v=soWEGW_g-Rw" target="_blank">
+            <img src="https://img.youtube.com/vi/soWEGW_g-Rw/maxresdefault.jpg" alt="Video 3" style="width:300px; height:169px; object-fit:cover; border-radius:12px;">
+        </a>
+        <a href="https://www.youtube.com/watch?v=kPqftgIppSU" target="_blank">
+            <img src="https://img.youtube.com/vi/kPqftgIppSU/maxresdefault.jpg" alt="Video 4" style="width:300px; height:169px; object-fit:cover; border-radius:12px;">
+        </a>
+               </div>
+       </section>
+
+<section id="shop" style="padding:50px 20px; background:#1a1a1a; color:white; position:relative;">
+    <h2 style="text-align:center; margin-bottom:40px; font-size:2.5em;">Shop</h2>
+
+    <div style="
+        display:grid; 
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+        gap:20px; 
+        max-width:1000px; 
+        margin:0 auto;
+    ">
+        <!-- Product 1 -->
+        <div style="
+            background:rgba(255,255,255,0.05); 
+            padding:20px; 
+            border-radius:15px; 
+            text-align:center; 
+            box-shadow:0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease;
+        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="https://i.imgur.com/qte6Thd.png" alt="Product 1" style="width:100%; border-radius:10px; margin-bottom:15px;">
+            <h3 style="margin-bottom:10px;">MEMESENSE</h3>
+            <p style="margin-bottom:15px;">High-quality gaming cheat.</p>
+            <a href="https://exodichub.mysellauth.com/product/memesense-cheat" target="_blank" style="
+                display:inline-block; 
+                background:#e03231; 
+                color:white; 
+                padding:10px 20px; 
+                border-radius:10px; 
+                text-decoration:none;
+                font-weight:bold;
+            ">Buy Now</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div style="
+            background:rgba(255,255,255,0.05); 
+            padding:20px; 
+            border-radius:15px; 
+            text-align:center; 
+            box-shadow:0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease;
+        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="https://i.imgur.com/GlhNFB4.png" alt="Product 2" style="width:100%; border-radius:10px; margin-bottom:15px;">
+            <h3 style="margin-bottom:10px;">CONFIG LEGIT</h3>
+            <p style="margin-bottom:15px;">Legit config for Memesense.</p>
+            <a href="https://exodichub.mysellauth.com/product/memesense-config-legit" target="_blank" style="
+                display:inline-block; 
+                background:#e03231; 
+                color:white; 
+                padding:10px 20px; 
+                border-radius:10px; 
+                text-decoration:none;
+                font-weight:bold;
+            ">Buy Now</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div style="
+            background:rgba(255,255,255,0.05); 
+            padding:20px; 
+            border-radius:15px; 
+            text-align:center; 
+            box-shadow:0 4px 20px rgba(0,0,0,0.5);
+            transition: transform 0.2s ease;
+        " onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+            <img src="https://i.imgur.com/5livXV2.png" alt="Product 3" style="width:100%; border-radius:10px; margin-bottom:15px;">
+            <h3 style="margin-bottom:10px;">Config Semi-Rage</h3>
+            <p style="margin-bottom:15px;">Semi-Rage config for Memesnese.</p>
+            <a href="https://exodichub.mysellauth.com/product/memesense-config-semi-rage" target="_blank" style="
+                display:inline-block; 
+                background:#e03231; 
+                color:white; 
+                padding:10px 20px; 
+                border-radius:10px; 
+                text-decoration:none;
+                font-weight:bold;
+            ">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+
+
+		<section id="contact">
+			<h3>Contact</h3>
+			<p class="quote">"The most important thing in communication is to hear what is not said."<span>aimex1337 - Project</span></p>
+			<form id="contact_form">
+
+			    
+			    <label for="message">Currently is not working!</label>
+			    <textarea id="message" name="message" required placeholder="Contact me on Discord!"></textarea>
+
+			</form>
+		</section>
+
+	</main>
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

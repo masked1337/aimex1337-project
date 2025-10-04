@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+	<title>masked1337 | L337Hub</title>
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link rel="canonical" href="https://masked1337.github.io/">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="masked1337 | L337Hub.">
+	<meta name="keywords" content="leet, youtube, portfolio, 1337">
+	<meta name="author" content="masked1337">
+	<meta name="theme-color" content="#e03231">
+
+	<!-- Discord Embed -->
+	<meta property="og:title" content="masked1337 | L337Hub">
+	<meta property="og:description" content="masked1337 | L337Hub.">
+	<meta property="og:url" content="https://masked1337.github.io/">
+	<meta property="og:image" content="https://masked1337.github.io/assets/img/logo.png">
+
+	<style>
+		.youtube-videos {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+			margin-top: 20px;
+		}
+
+		.youtube-videos iframe {
+			width: 300px;
+			height: 169px; /* odnos 16:9 */
+			border-radius: 8px;
+		}
+
+		@media (max-width: 768px) {
+			.youtube-videos iframe {
+				width: 90%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home"><i class="bi bi-house"></i> <span>Home</span></a></li>
+				<li><a href="#galery"><i class="bi bi-camera"></i> <span>Galery</span></a></li>
+				<li><a href="#contact"><i class="bi bi-envelope"></i> <span>Contact</span></a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<section id="home">
+			<strong>We!come To</strong>
+			<h1>masked1337</h1>
+			<p></p>
+			<ul class="social-media">
+				<li><a href="https://github.com/masked1337" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="bi bi-github"></i></a></li>
+				<li><a href="https://steamcommunity.com/id/masked1337" target="_blank" rel="noopener noreferrer" aria-label="Steam"><i class="bi bi-steam"></i></a></li>
+				<li><a href="https://exodichub.mysellauth.com/" aria-label="Store"><i class="bi bi-shop"></i></a></li>
+			</ul>
+		</section>
+
+		<section id="galery">
+			<h2>Galery</h2>
+			<p class="quote">"The most important thing in communication is to hear what is not said."<span>masked1337</span></p>
+
+			<div class="youtube-videos">
+				<iframe src="https://www.youtube.com/embed/Ses47kZTwUU" title="Video 1" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/eO5jDdAd8zA" title="Video 2" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/soWEGW_g-Rw" title="Video 3" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/kPqftgIppSU" title="Video 4" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h3>Contact</h3>
+			<p class="quote">"The most important thing in communication is to hear what is not said."<span>masked1337</span></p>
+			<form id="contact_form">
+			    <label for="name">Name:</label>
+			    <input type="text" id="name" name="name" required placeholder="Name...">
+			    
+			    <label for="email">Email:</label>
+			    <input type="email" id="email" name="email" required placeholder="name@email.com">
+			    
+			    <label for="message">Message:</label>
+			    <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+			    
+			    <button type="submit">Send</button>
+			</form>
+		</section>
+
+	</main>
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
